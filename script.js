@@ -1,6 +1,6 @@
 function fibonacci(num) {
 // your code here
-	return fibo(num);
+	return fibo(num - 1);
 }
 
 function fibo(num){

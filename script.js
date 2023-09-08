@@ -1,6 +1,13 @@
 function fibonacci(num) {
 // your code here
-	return fibo(num - 1);
+	if(num==0){
+        return 0;
+    }
+    if(num==1){
+        return 1;
+    }
+
+    return fibo(num-1);
 }
 
 function fibo(num){
